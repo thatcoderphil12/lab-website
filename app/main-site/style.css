@@ -13,6 +13,7 @@ body {
 }
 
 .App-logo {
+  margin: 5vh;
   height: 10vmin;
   pointer-events: none;
 }
@@ -35,7 +36,7 @@ body {
 }
 
 .link-box {
-  display: inline-block;
+  display: block;
   padding: 24px 32px;
   border: 2px solid #ffffff;
   border-radius: 25px;
@@ -48,6 +49,7 @@ body {
 }
 
 .dataset-title {
+    margin: 0;
   margin-bottom: 16px;
   font-weight: 600;
 }
