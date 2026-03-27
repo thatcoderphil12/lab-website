@@ -47,13 +47,13 @@ start_nginx
 echo "Activating environment..."
 source ~/lab-website/venv/bin/activate
 
-echo "Starting paper1..."
+echo "Starting omar2025..."
 (
 cd ~/lab-website/app/paper-1/ || exit
 nohup streamlit run app.py \
   --server.port 8080 \
-  --server.baseUrlPath paper1 \
-  > paper1.log 2>&1 &
+  --server.baseUrlPath omar2025 \
+  > omar2025.log 2>&1 &
 )
 
 echo "Starting paper2..."
