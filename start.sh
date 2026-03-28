@@ -61,7 +61,7 @@ echo "Starting paper2..."
 cd ~/lab-website/app/paper-2/ || exit
 nohup streamlit run app.py \
   --server.port 8081 \
-  --server.baseUrlPath paper2 \
+  --server.baseUrlPath pathoulas2026a \
   > paper2.log 2>&1 &
 )
 
