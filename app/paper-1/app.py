@@ -11,7 +11,7 @@ from statsmodels.stats.multicomp import pairwise_tukeyhsd
 @st.cache_resource
 def load_adata():
     # Path for your Mac
-    path = "/home/philm12/lab-website/app/paper-1/PseudobulkCounts.h5ad"
+    path = "/Users/philm12/Code/lab-website/app/paper-1/PseudobulkCounts.h5ad"
     return sc.read_h5ad(path)
 
 adata_combined = load_adata()
