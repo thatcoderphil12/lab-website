@@ -3,7 +3,7 @@
 # Exit immediately if a command fails
 set -e
 
-APP_DIR=~/lab-website/app
+APP_DIR=~/Code/lab-website/app
 VENV_DIR="$APP_DIR/venv"
 
 # Navigate to the app directory
