@@ -2606,6 +2606,10 @@ input, select, textarea {
 			.image.main img {
 				width: 100%;
 			}
+	.rounded {
+		border-radius: 25px;
+		display: inline-block;
+	}
 
 /* List */
 
